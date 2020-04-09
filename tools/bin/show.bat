@@ -1,6 +1,5 @@
 @ECHO OFF
 
-
 if [%*]==[] (
 	echo Digite o nome da janela.
 	set /P windowname=
@@ -8,7 +7,6 @@ if [%*]==[] (
 ) else (
 	set windowname=%*
 )
-
 
 if [%windowname%]==[me] (
 	cmdow @ /vis

@@ -1,7 +1,5 @@
 @ECHO OFF
 
-call utf8
-
 if [%*]==[] (
 	echo Digite o nome da janela.
 	set /P windowname=
